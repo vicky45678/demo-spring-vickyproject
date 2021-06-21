@@ -37,7 +37,7 @@ public class Calculatorcontroller {
     //Request param
     @RequestMapping("/messege")
     public String messege(@RequestParam String messsege){
-        String text;
+        String messege;
         return "is the function of calculation";
     }
 }
